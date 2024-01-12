@@ -7,7 +7,11 @@
 3. Получение текущего баланса пользователя. Запись текущего значения баланса в переменную коллекции **_current_balance_**.
 4. Получение темы публикаций. Создание переменных коллекции **_subjects_name1_**, **_subjects_name2_**, **_subjects_name3_** и запись в них наименования тем первых трёх публикаций. Создание переменной коллекции **_subjects_total_** и запись в неё общего количества публикаций.
 5. Получение документов в формате ScanDoc по идентификаторам одним запросом. Передача на сервер два идентификатора в виде переменных:
+
+   
    а) _"1:0JPQqdGM0JNWCdCzf2Jt0LHQotGV0ZUh0ZbRlBXCt0Je0JHQruKAnDcUXkZQ0YvQscKnehLRnNC1KtGK0Ll9BWLigLo/HXXCrhw="_
+
+   
    б) _"1:fmYoHEjQrRbQhz3RiUtm4oCh0JLRmtCLIyU10IzigqzRgGjQmCoR0JFg0YRhwrVzN9CxDUM50KcpdTbRiNCLwpjRkuKAphXRkVxh0JU50K5uWdC50L7RjX0C0KwQRsKp"_
    Получение из ответа наименования новостных агентств и их запись в переменные коллекции **_news_agent_1_** и **_news_agent_2_** в сопровождении запроса 
    тестом на статус-код 200.
